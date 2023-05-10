@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
     crossAxisCount: 3,
   ),
   itemBuilder: (context, index) {
-    return MyCard(index);
+    return MyCard(items[index],index);
   },
 )
 
