@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_a2z/features/catalog/pages/catalogPage.dart';
+import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/home/widgets/itemCard.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -11,23 +11,28 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> items = List.generate(30, (index) => "Item ${index + 1}");
+  List<HomeModel> allModels = HomeModel.fetchAll();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Grid Layout'),
+        title: Text('Widgets A2Z'),
       ),
       body: GridView.builder(
-  itemCount: items.length,
-  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-    crossAxisCount: 3,
-  ),
-  itemBuilder: (context, index) {
-    return MyCard(items[index],index);
-  },
-)
-
+        itemCount: allModels.length,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 3,
+        ),
+        itemBuilder: (context, index) {
+          return GestureDetector(
+            onTap: () {
+              print(allModels[index].title);
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>CatalogPage(text : allModels[index].title)));
+            },
+            child: MyCard(allModels[index].title, allModels[index].icon),
+          );
+        },
+      ),
     );
   }
 }

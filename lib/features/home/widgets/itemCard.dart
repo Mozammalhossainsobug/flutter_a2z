@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-Card MyCard(Tittle,index) {
+Card MyCard(Tittle,icon) {
   return Card(
       elevation: 50,
       shadowColor: Colors.black,
@@ -22,21 +22,9 @@ Card MyCard(Tittle,index) {
           const SizedBox(
             height: 10,
           ),
-          ElevatedButton(
-            onPressed: () {
-              Fluttertoast.showToast(msg: "Index $index");
-            },
-            style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.blueAccent)),
-            child: Padding(
-              padding: const EdgeInsets.all(4),
-              child: Row(
-                children: const [
-                  Icon(Icons.touch_app),
-                  Text('Details'),
-                ],
-              ),
-            ),
+          icon,
+    const SizedBox(
+            height: 20,
           ),
         ],
       ));
