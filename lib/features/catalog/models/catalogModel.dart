@@ -15,7 +15,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Icon',
           icon: Icon(
-            Icons.add_card,
+            Icons.favorite,
             size: 32,
             color: Colors.green,
           ),
@@ -24,7 +24,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Image',
           icon: Icon(
-            Icons.add_card,
+            Icons.photo,
             size: 32,
             color: Colors.green,
           ),
@@ -36,7 +36,7 @@ class CatalogModel {
         CatalogModel(
           title: 'AppBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.menu,
             size: 32,
             color: Colors.green,
           ),
@@ -46,7 +46,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Column',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_column,
             size: 32,
             color: Colors.green,
           ),
@@ -55,7 +55,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Container',
           icon: Icon(
-            Icons.add_card,
+            Icons.crop_square,
             size: 32,
             color: Colors.green,
           ),
@@ -65,7 +65,7 @@ class CatalogModel {
         CatalogModel(
           title: 'ElevatedButton',
           icon: Icon(
-            Icons.add_card,
+            Icons.smart_button_outlined,
             size: 32,
             color: Colors.green,
           ),
@@ -75,7 +75,7 @@ class CatalogModel {
         CatalogModel(
           title: 'FlutterLogo',
           icon: Icon(
-            Icons.add_card,
+            Icons.flutter_dash,
             size: 32,
             color: Colors.green,
           ),
@@ -85,7 +85,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Placeholder',
           icon: Icon(
-            Icons.add_card,
+            Icons.info_outline,
             size: 32,
             color: Colors.green,
           ),
@@ -95,7 +95,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Row',
           icon: Icon(
-            Icons.add_card,
+            Icons.image_outlined,
             size: 32,
             color: Colors.green,
           ),
@@ -105,7 +105,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Scaffold',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_day,
             size: 32,
             color: Colors.green,
           ),
@@ -115,7 +115,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Text',
           icon: Icon(
-            Icons.add_card,
+            Icons.text_fields,
             size: 32,
             color: Colors.green,
           ),
@@ -150,7 +150,7 @@ class CatalogModel {
         CatalogModel(
           title: 'AbsorbPointer',
           icon: Icon(
-            Icons.add_card,
+            Icons.touch_app,
             size: 32,
             color: Colors.green,
           ),
@@ -160,7 +160,7 @@ class CatalogModel {
         CatalogModel(
           title: 'GestureDetector',
           icon: Icon(
-            Icons.add_card,
+            Icons.gesture,
             size: 32,
             color: Colors.green,
           ),
@@ -170,7 +170,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Scrollable',
           icon: Icon(
-            Icons.add_card,
+            Icons.arrow_circle_down,
             size: 32,
             color: Colors.green,
           ),
@@ -180,7 +180,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Hero',
           icon: Icon(
-            Icons.add_card,
+            Icons.star,
             size: 32,
             color: Colors.green,
           ),
@@ -190,7 +190,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Navigator',
           icon: Icon(
-            Icons.add_card,
+            Icons.navigation,
             size: 32,
             color: Colors.green,
           ),
@@ -203,7 +203,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Align',
           icon: Icon(
-            Icons.add_card,
+            Icons.format_align_center,
             size: 32,
             color: Colors.green,
           ),
@@ -214,7 +214,7 @@ class CatalogModel {
         CatalogModel(
           title: 'AspectRatio',
           icon: Icon(
-            Icons.add_card,
+            Icons.aspect_ratio,
             size: 32,
             color: Colors.green,
           ),
@@ -224,7 +224,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Center',
           icon: Icon(
-            Icons.add_card,
+            Icons.center_focus_strong,
             size: 32,
             color: Colors.green,
           ),
@@ -233,7 +233,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Container',
           icon: Icon(
-            Icons.add_card,
+            Icons.crop_square,
             size: 32,
             color: Colors.green,
           ),
@@ -243,7 +243,7 @@ class CatalogModel {
         CatalogModel(
           title: 'CustomSingleChildLayout',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_quilt,
             size: 32,
             color: Colors.green,
           ),
@@ -253,7 +253,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Expanded',
           icon: Icon(
-            Icons.add_card,
+            Icons.expand,
             size: 32,
             color: Colors.green,
           ),
@@ -262,7 +262,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Padding',
           icon: Icon(
-            Icons.add_card,
+            Icons.padding,
             size: 32,
             color: Colors.green,
           ),
@@ -271,7 +271,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Sizedbox',
           icon: Icon(
-            Icons.add_card,
+            Icons.aspect_ratio_rounded,
             size: 32,
             color: Colors.green,
           ),
@@ -281,7 +281,7 @@ class CatalogModel {
         CatalogModel(
           title: 'CustomMultiChildLayout',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_comfortable,
             size: 32,
             color: Colors.green,
           ),
@@ -291,7 +291,7 @@ class CatalogModel {
         CatalogModel(
           title: 'GridView',
           icon: Icon(
-            Icons.add_card,
+            Icons.grid_view,
             size: 32,
             color: Colors.green,
           ),
@@ -301,7 +301,7 @@ class CatalogModel {
         CatalogModel(
           title: 'IndexedStack',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_list,
             size: 32,
             color: Colors.green,
           ),
@@ -310,7 +310,7 @@ class CatalogModel {
         CatalogModel(
           title: 'LayoutBuilder',
           icon: Icon(
-            Icons.add_card,
+            Icons.aspect_ratio_outlined,
             size: 32,
             color: Colors.green,
           ),
@@ -320,17 +320,17 @@ class CatalogModel {
         CatalogModel(
           title: 'ListView',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_list_rounded,
             size: 32,
             color: Colors.green,
           ),
           details:
-              "A scrollable, linear list of widgets. ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll direction....",
+              "A scrollable, linear list of widgets. ListView is the most commonly used scrolling widget. It displays its children one after another in the scroll. It displays its children one after another in the scroll direction....",
         ),
         CatalogModel(
           title: 'Stack',
           icon: Icon(
-            Icons.add_card,
+            Icons.layers,
             size: 32,
             color: Colors.green,
           ),
@@ -340,7 +340,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Table',
           icon: Icon(
-            Icons.add_card,
+            Icons.table_chart,
             size: 32,
             color: Colors.green,
           ),
@@ -349,7 +349,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Wrap',
           icon: Icon(
-            Icons.add_card,
+            Icons.wrap_text,
             size: 32,
             color: Colors.green,
           ),
@@ -359,7 +359,7 @@ class CatalogModel {
         CatalogModel(
           title: 'CustomScrollView',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_day,
             size: 32,
             color: Colors.green,
           ),
@@ -372,110 +372,92 @@ class CatalogModel {
         CatalogModel(
           title: 'IconButton',
           icon: Icon(
-            Icons.add_card,
+            Icons.touch_app,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design icon button.',
         ),
         CatalogModel(
           title: 'ProgressIndicator',
           icon: Icon(
-            Icons.add_card,
+            Icons.hourglass_empty,
             size: 32,
             color: Colors.green,
           ),
-          details: "A widget that displays an image.",
+          details: "A widget that displays a loading indicator.",
         ),
         CatalogModel(
           title: 'SnackBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.error_outline,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design snack bar.',
         ),
         CatalogModel(
           title: 'Card',
           icon: Icon(
-            Icons.add_card,
+            Icons.credit_card,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design card.',
         ),
         CatalogModel(
           title: 'Dialog',
           icon: Icon(
-            Icons.add_card,
+            Icons.message,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design dialog.',
         ),
         CatalogModel(
           title: 'Divider',
           icon: Icon(
-            Icons.add_card,
+            Icons.line_style,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
-        ),
-        CatalogModel(
-          title: 'Divider',
-          icon: Icon(
-            Icons.add_card,
-            size: 32,
-            color: Colors.green,
-          ),
-          details: 'A Material Design icon.',
-        ),
-        CatalogModel(
-          title: 'Divider',
-          icon: Icon(
-            Icons.add_card,
-            size: 32,
-            color: Colors.green,
-          ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design divider.',
         ),
         CatalogModel(
           title: 'BottomAppBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.vertical_align_bottom,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design bottom app bar.',
         ),
         CatalogModel(
           title: 'NavigationBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.navigation,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design navigation bar.',
         ),
         CatalogModel(
           title: 'TabBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.tab,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design tab bar.',
         ),
         CatalogModel(
           title: 'Switch',
           icon: Icon(
-            Icons.add_card,
+            Icons.toggle_on,
             size: 32,
             color: Colors.green,
           ),
-          details: 'A Material Design icon.',
+          details: 'A Material Design switch.',
         ),
       ];
 
@@ -483,7 +465,7 @@ class CatalogModel {
         CatalogModel(
           title: 'GridView',
           icon: Icon(
-            Icons.add_card,
+            Icons.grid_view,
             size: 32,
             color: Colors.green,
           ),
@@ -493,7 +475,7 @@ class CatalogModel {
         CatalogModel(
           title: 'ListView',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_list,
             size: 32,
             color: Colors.green,
           ),
@@ -503,7 +485,7 @@ class CatalogModel {
         CatalogModel(
           title: 'NestedScrollView',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_array,
             size: 32,
             color: Colors.green,
           ),
@@ -513,7 +495,7 @@ class CatalogModel {
         CatalogModel(
           title: 'RefreshIndicator',
           icon: Icon(
-            Icons.add_card,
+            Icons.refresh,
             size: 32,
             color: Colors.green,
           ),
@@ -522,7 +504,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Scrollable',
           icon: Icon(
-            Icons.add_card,
+            Icons.view_agenda,
             size: 32,
             color: Colors.green,
           ),
@@ -532,7 +514,7 @@ class CatalogModel {
         CatalogModel(
           title: 'ScrollBar',
           icon: Icon(
-            Icons.add_card,
+            Icons.vertical_align_top,
             size: 32,
             color: Colors.green,
           ),
@@ -542,7 +524,7 @@ class CatalogModel {
         CatalogModel(
           title: 'SingleChildScrollView',
           icon: Icon(
-            Icons.add_card,
+            Icons.vertical_align_top,
             size: 32,
             color: Colors.green,
           ),
@@ -555,7 +537,7 @@ class CatalogModel {
         CatalogModel(
           title: 'MediaQuery',
           icon: Icon(
-            Icons.add_card,
+            Icons.photo_size_select_actual,
             size: 32,
             color: Colors.green,
           ),
@@ -565,7 +547,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Padding',
           icon: Icon(
-            Icons.add_card,
+            Icons.format_indent_increase,
             size: 32,
             color: Colors.green,
           ),
@@ -577,7 +559,7 @@ class CatalogModel {
         CatalogModel(
           title: 'RichText',
           icon: Icon(
-            Icons.add_card,
+            Icons.format_color_text,
             size: 32,
             color: Colors.green,
           ),
@@ -587,7 +569,7 @@ class CatalogModel {
         CatalogModel(
           title: 'Text',
           icon: Icon(
-            Icons.add_card,
+            Icons.text_fields,
             size: 32,
             color: Colors.green,
           ),

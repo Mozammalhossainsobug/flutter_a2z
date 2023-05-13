@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
         itemBuilder: (context, index) {
           return GestureDetector(
             onTap: () {
-              print(allModels[index].title);
+             // print(allModels[index].title);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>CatalogPage(text : allModels[index].title)));
             },
             child: MyCard(allModels[index].title, allModels[index].icon),
