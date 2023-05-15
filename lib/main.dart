@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_a2z/features/catalog/pages/catalogDescription.dart';
-import 'package:flutter_a2z/features/catalog/pages/catalogPage.dart';
-import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/home/pages/homePage.dart';
+import 'package:flutter_a2z/src/core/routes/routes.dart';
+import 'package:flutter_a2z/src/core/routes/routing_constant.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +9,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   MyApp({Key? key}) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,15 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      initialRoute: '/', // Define the initial route
-      routes: {
-        '/': (context) => HomePage(), // Define the home page route
-        '/catalog': (context) => CatalogPage(
-              text: '',
-            ),
-        '/catalogDescription': (context) => CatalogDescriptionPage(
-           icon: Icon(Icons.no_accounts), title: '', description: ''), // Define the profile page route
-      },
+      initialRoute: homePage,
+      onGenerateRoute: generateRoute,
+      home: HomePage(),
     );
   }
 }
