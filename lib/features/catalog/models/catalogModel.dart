@@ -1,3 +1,6 @@
+// ignore: file_names
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 class CatalogModel {
@@ -14,7 +17,7 @@ class CatalogModel {
   static List<CatalogModel> AssetsCatalog() => [
         CatalogModel(
           title: 'Icon',
-          icon: Icon(
+          icon: const Icon(
             Icons.favorite,
             size: 32,
             color: Colors.green,
@@ -23,7 +26,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Image',
-          icon: Icon(
+          icon: const Icon(
             Icons.photo,
             size: 32,
             color: Colors.green,
@@ -32,10 +35,11 @@ class CatalogModel {
         ),
       ];
 
+
   static List<CatalogModel> BasicsCatalog() => [
         CatalogModel(
           title: 'AppBar',
-          icon: Icon(
+          icon: const Icon(
             Icons.menu,
             size: 32,
             color: Colors.green,
@@ -45,7 +49,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Column',
-          icon: Icon(
+          icon: const Icon(
             Icons.view_column,
             size: 32,
             color: Colors.green,
@@ -54,7 +58,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Container',
-          icon: Icon(
+          icon: const Icon(
             Icons.crop_square,
             size: 32,
             color: Colors.green,
@@ -64,7 +68,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'ElevatedButton',
-          icon: Icon(
+          icon: const Icon(
             Icons.smart_button_outlined,
             size: 32,
             color: Colors.green,
@@ -74,7 +78,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'FlutterLogo',
-          icon: Icon(
+          icon: const Icon(
             Icons.flutter_dash,
             size: 32,
             color: Colors.green,
@@ -84,7 +88,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Placeholder',
-          icon: Icon(
+          icon:  const Icon(
             Icons.info_outline,
             size: 32,
             color: Colors.green,
@@ -94,7 +98,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Row',
-          icon: Icon(
+          icon:  const Icon(
             Icons.image_outlined,
             size: 32,
             color: Colors.green,
@@ -104,7 +108,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Scaffold',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_day,
             size: 32,
             color: Colors.green,
@@ -114,7 +118,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Text',
-          icon: Icon(
+          icon:  const Icon(
             Icons.text_fields,
             size: 32,
             color: Colors.green,
@@ -123,10 +127,11 @@ class CatalogModel {
         ),
       ];
 
+  // ignore: non_constant_identifier_names
   static List<CatalogModel> InputCatalog() => [
         CatalogModel(
           title: 'Form',
-          icon: Icon(
+          icon:  const Icon(
             Icons.add_card,
             size: 32,
             color: Colors.green,
@@ -136,7 +141,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'FormField',
-          icon: Icon(
+          icon: const  Icon(
             Icons.add_card,
             size: 32,
             color: Colors.green,
@@ -149,7 +154,7 @@ class CatalogModel {
   static List<CatalogModel> InteractionCatalog() => [
         CatalogModel(
           title: 'AbsorbPointer',
-          icon: Icon(
+          icon:  const Icon(
             Icons.touch_app,
             size: 32,
             color: Colors.green,
@@ -159,7 +164,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'GestureDetector',
-          icon: Icon(
+          icon:  const Icon(
             Icons.gesture,
             size: 32,
             color: Colors.green,
@@ -169,7 +174,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Scrollable',
-          icon: Icon(
+          icon:  const Icon(
             Icons.arrow_circle_down,
             size: 32,
             color: Colors.green,
@@ -179,7 +184,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Hero',
-          icon: Icon(
+          icon:  const Icon(
             Icons.star,
             size: 32,
             color: Colors.green,
@@ -189,7 +194,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Navigator',
-          icon: Icon(
+          icon:  const Icon(
             Icons.navigation,
             size: 32,
             color: Colors.green,
@@ -202,7 +207,7 @@ class CatalogModel {
   static List<CatalogModel> LayoutCatalog() => [
         CatalogModel(
           title: 'Align',
-          icon: Icon(
+          icon:  const Icon(
             Icons.format_align_center,
             size: 32,
             color: Colors.green,
@@ -213,7 +218,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'AspectRatio',
-          icon: Icon(
+          icon:  const Icon(
             Icons.aspect_ratio,
             size: 32,
             color: Colors.green,
@@ -223,7 +228,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Center',
-          icon: Icon(
+          icon:  const Icon(
             Icons.center_focus_strong,
             size: 32,
             color: Colors.green,
@@ -232,7 +237,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Container',
-          icon: Icon(
+          icon:  const Icon(
             Icons.crop_square,
             size: 32,
             color: Colors.green,
@@ -242,7 +247,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'CustomSingleChildLayout',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_quilt,
             size: 32,
             color: Colors.green,
@@ -252,7 +257,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Expanded',
-          icon: Icon(
+          icon:  const Icon(
             Icons.expand,
             size: 32,
             color: Colors.green,
@@ -261,7 +266,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Padding',
-          icon: Icon(
+          icon:  const Icon(
             Icons.padding,
             size: 32,
             color: Colors.green,
@@ -270,7 +275,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Sizedbox',
-          icon: Icon(
+          icon:  const Icon(
             Icons.aspect_ratio_rounded,
             size: 32,
             color: Colors.green,
@@ -280,7 +285,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'CustomMultiChildLayout',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_comfortable,
             size: 32,
             color: Colors.green,
@@ -290,7 +295,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'GridView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.grid_view,
             size: 32,
             color: Colors.green,
@@ -300,7 +305,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'IndexedStack',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_list,
             size: 32,
             color: Colors.green,
@@ -309,7 +314,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'LayoutBuilder',
-          icon: Icon(
+          icon:  const Icon(
             Icons.aspect_ratio_outlined,
             size: 32,
             color: Colors.green,
@@ -319,7 +324,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'ListView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_list_rounded,
             size: 32,
             color: Colors.green,
@@ -329,7 +334,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Stack',
-          icon: Icon(
+          icon:  const Icon(
             Icons.layers,
             size: 32,
             color: Colors.green,
@@ -339,7 +344,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Table',
-          icon: Icon(
+          icon: const  Icon(
             Icons.table_chart,
             size: 32,
             color: Colors.green,
@@ -348,7 +353,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Wrap',
-          icon: Icon(
+          icon:  const Icon(
             Icons.wrap_text,
             size: 32,
             color: Colors.green,
@@ -358,7 +363,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'CustomScrollView',
-          icon: Icon(
+          icon: const  Icon(
             Icons.view_day,
             size: 32,
             color: Colors.green,
@@ -371,7 +376,7 @@ class CatalogModel {
   static List<CatalogModel> MaterialCatalog() => [
         CatalogModel(
           title: 'IconButton',
-          icon: Icon(
+          icon: const  Icon(
             Icons.touch_app,
             size: 32,
             color: Colors.green,
@@ -380,7 +385,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'ProgressIndicator',
-          icon: Icon(
+          icon: const Icon(
             Icons.hourglass_empty,
             size: 32,
             color: Colors.green,
@@ -389,7 +394,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'SnackBar',
-          icon: Icon(
+          icon:  const Icon(
             Icons.error_outline,
             size: 32,
             color: Colors.green,
@@ -398,7 +403,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Card',
-          icon: Icon(
+          icon:  const Icon(
             Icons.credit_card,
             size: 32,
             color: Colors.green,
@@ -407,7 +412,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Dialog',
-          icon: Icon(
+          icon:  const Icon(
             Icons.message,
             size: 32,
             color: Colors.green,
@@ -416,7 +421,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Divider',
-          icon: Icon(
+          icon:  const Icon(
             Icons.line_style,
             size: 32,
             color: Colors.green,
@@ -425,7 +430,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'BottomAppBar',
-          icon: Icon(
+          icon:  const Icon(
             Icons.vertical_align_bottom,
             size: 32,
             color: Colors.green,
@@ -434,7 +439,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'NavigationBar',
-          icon: Icon(
+          icon:  const Icon(
             Icons.navigation,
             size: 32,
             color: Colors.green,
@@ -443,7 +448,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'TabBar',
-          icon: Icon(
+          icon:  const Icon(
             Icons.tab,
             size: 32,
             color: Colors.green,
@@ -452,7 +457,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Switch',
-          icon: Icon(
+          icon:  const Icon(
             Icons.toggle_on,
             size: 32,
             color: Colors.green,
@@ -464,7 +469,7 @@ class CatalogModel {
   static List<CatalogModel> ScrollingCatalog() => [
         CatalogModel(
           title: 'GridView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.grid_view,
             size: 32,
             color: Colors.green,
@@ -474,7 +479,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'ListView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_list,
             size: 32,
             color: Colors.green,
@@ -484,7 +489,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'NestedScrollView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_array,
             size: 32,
             color: Colors.green,
@@ -494,16 +499,16 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'RefreshIndicator',
-          icon: Icon(
+          icon:  const Icon(
             Icons.refresh,
             size: 32,
             color: Colors.green,
           ),
-          details: "A Material Design pull-to-refresh wrapper for scrollables.",
+          details: "A Material Design pull-to-refresh wrapper for scrollable.",
         ),
         CatalogModel(
           title: 'Scrollable',
-          icon: Icon(
+          icon:  const Icon(
             Icons.view_agenda,
             size: 32,
             color: Colors.green,
@@ -513,7 +518,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'ScrollBar',
-          icon: Icon(
+          icon:  const Icon(
             Icons.vertical_align_top,
             size: 32,
             color: Colors.green,
@@ -523,7 +528,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'SingleChildScrollView',
-          icon: Icon(
+          icon:  const Icon(
             Icons.vertical_align_top,
             size: 32,
             color: Colors.green,
@@ -536,7 +541,7 @@ class CatalogModel {
   static List<CatalogModel> StylingCatalog() => [
         CatalogModel(
           title: 'MediaQuery',
-          icon: Icon(
+          icon:  const Icon(
             Icons.photo_size_select_actual,
             size: 32,
             color: Colors.green,
@@ -546,7 +551,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Padding',
-          icon: Icon(
+          icon:  const Icon(
             Icons.format_indent_increase,
             size: 32,
             color: Colors.green,
@@ -558,7 +563,7 @@ class CatalogModel {
   static List<CatalogModel> TextCatalog() => [
         CatalogModel(
           title: 'RichText',
-          icon: Icon(
+          icon:  const Icon(
             Icons.format_color_text,
             size: 32,
             color: Colors.green,
@@ -568,7 +573,7 @@ class CatalogModel {
         ),
         CatalogModel(
           title: 'Text',
-          icon: Icon(
+          icon:  const Icon(
             Icons.text_fields,
             size: 32,
             color: Colors.green,

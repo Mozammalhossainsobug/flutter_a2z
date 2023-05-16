@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: homePage,
       onGenerateRoute: generateRoute,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

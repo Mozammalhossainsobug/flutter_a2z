@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_a2z/features/catalog/pages/catalogPage.dart';
 import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/home/widgets/itemCard.dart';
-import 'package:flutter_a2z/src/core/routes/routing_constant.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -16,11 +15,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Widgets A2Z'),
+        title: const Text('Widgets A2Z'),
       ),
       body: GridView.builder(
         itemCount: allModels.length,
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
         ),
         itemBuilder: (context, index) {

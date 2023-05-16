@@ -1,14 +1,14 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter_a2z/features/catalog/models/catalogModel.dart';
 import 'package:flutter_a2z/features/catalog/widgets/catalogListTile.dart';
-import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/catalog/pages/catalogItemDetails.dart';
 
 class CatalogPage extends StatelessWidget {
    final String title;
    final List<CatalogModel>allCatalogs;
 
-   CatalogPage({required this.title, required this.allCatalogs});
+   const CatalogPage({super.key, required this.title, required this.allCatalogs});
 
 
 
@@ -43,7 +43,7 @@ class CatalogPage extends StatelessWidget {
               );
             },
             child: Padding(
-              padding: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 5.0),
+              padding: const EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 5.0),
               child: myList(
                   index, allCatalogs[index].title, allCatalogs[index].icon),
             ),
