@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_a2z/features/catalog/models/catalogModel.dart';
 import 'package:flutter_a2z/src/core/routes/routing_constant.dart';
 
 import '../../../features/catalog/pages/catalogItemDetails.dart';
@@ -13,10 +14,13 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return MaterialPageRoute(builder: (context) => HomePage());
 
     case catalogPage:
-    final String textArg = settings.arguments as String;
+    // final String textArg = settings.arguments as String;
+    final Map<String, dynamic> arg = settings.arguments as Map<String, dynamic>;
       return MaterialPageRoute(
         builder: (context) => CatalogPage(
-          text: textArg,  
+         // text: textArg,  
+         title: arg["title"] as String,
+         allCatalogs: arg["allCatalogs"] as List<CatalogModel>,
         ),
       );
 

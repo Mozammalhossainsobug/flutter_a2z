@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_a2z/features/catalog/pages/catalogPage.dart';
 import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/home/widgets/itemCard.dart';
 import 'package:flutter_a2z/src/core/routes/routing_constant.dart';
@@ -25,8 +26,15 @@ class _HomePageState extends State<HomePage> {
         itemBuilder: (context, index) {
           return GestureDetector(
             onTap: () {
-              //print({"printing from hompage" : allModels[index].title});
-              Navigator.pushNamed(context, catalogPage,arguments: (allModels[index].title),);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => CatalogPage(
+                    title: allModels[index].title,
+                    allCatalogs: allModels[index].catalogList,
+                  ),
+                ),
+              );
             },
             child: MyCard(allModels[index].title, allModels[index].icon),
           );

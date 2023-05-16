@@ -5,23 +5,31 @@ import 'package:flutter_a2z/features/home/models/homeModel.dart';
 import 'package:flutter_a2z/features/catalog/pages/catalogItemDetails.dart';
 
 class CatalogPage extends StatelessWidget {
-  final String text;
-  CatalogPage({required this.text});
+   final String title;
+   final List<CatalogModel>allCatalogs;
 
-  static List<HomeModel> allModels = HomeModel.fetchAll();
-  static List<CatalogModel> allCatalogs = [];
+   CatalogPage({required this.title, required this.allCatalogs});
+
+
+
+  // final String text;
+  // CatalogPage({required this.text});
+  //static List<HomeModel> allModels = HomeModel.fetchAll();
+ // static List<CatalogModel> allCatalogs = [];
+
+
 
   @override
   Widget build(BuildContext context) {
-   // print({"printing from the catalog" : text});
-    for (int i = 0; i < allModels.length; i++) {
-      if (allModels[i].title == text) {
-        allCatalogs = allModels[i].catalogList;
-      }
-    }
+
+    // for (int i = 0; i < allModels.length; i++) {
+    //   if (allModels[i].title == text) {
+    //     allCatalogs = allModels[i].catalogList;
+    //   }
+    // }
     return Scaffold(
       appBar: AppBar(
-        title: Text(text),
+        title: Text(title),
         backgroundColor: Colors.green,
       ),
       body: ListView.builder(
