@@ -1,7 +1,7 @@
 // ignore: file_names, unnecessary_import
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_a2z/features/catalog/models/catalogModel.dart';
+import 'package:flutter_a2z/src/features/catalog/models/catalogModel.dart';
  
 class HomeModel {
   HomeModel(

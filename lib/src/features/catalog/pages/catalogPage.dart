@@ -1,8 +1,8 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_a2z/features/catalog/models/catalogModel.dart';
-import 'package:flutter_a2z/features/catalog/widgets/catalogListTile.dart';
-import 'package:flutter_a2z/features/catalog/pages/catalogItemDetails.dart';
+import 'package:flutter_a2z/src/features/catalog/models/catalogModel.dart';
+import 'package:flutter_a2z/src/features/catalog/pages/catalogItemDetails.dart';
+import 'package:flutter_a2z/src/features/catalog/widgets/catalogListTile.dart';
 
 class CatalogPage extends StatelessWidget {
    final String title;
@@ -39,7 +39,7 @@ class CatalogPage extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context)=>CatalogItemDetails(title: allCatalogs[index].title, icon: allCatalogs[index].icon, description: allCatalogs[index].details),)
+                MaterialPageRoute(builder: (context)=>CatalogItemDetails(title: allCatalogs[index].title, icon: allCatalogs[index].icon, description: allCatalogs[index].details, myWidget: allCatalogs[index].myWidget,),)
               );
             },
             child: Padding(

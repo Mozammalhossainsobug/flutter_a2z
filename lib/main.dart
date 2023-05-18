@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_a2z/features/home/pages/homePage.dart';
 import 'package:flutter_a2z/src/core/routes/routes.dart';
 import 'package:flutter_a2z/src/core/routes/routing_constant.dart';
+import 'package:flutter_a2z/src/features/home/pages/homePage.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,7 +1,8 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_a2z/features/catalog/pages/catalogPage.dart';
-import 'package:flutter_a2z/features/home/models/homeModel.dart';
-import 'package:flutter_a2z/features/home/widgets/itemCard.dart';
+import 'package:flutter_a2z/src/features/catalog/pages/catalogPage.dart';
+import 'package:flutter_a2z/src/features/home/models/homeModel.dart';
+import 'package:flutter_a2z/src/features/home/widgets/itemCard.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
